@@ -16,3 +16,11 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+## Environment
+# Development
+VITE_BASE_URL=http://localhost/anf_test/public/api
+# Production
+VITE_BASE_URL=/public/api
+
+El entorno de produccion se ejecuta cuando el sistema esta desplegado en un server y se copia el `build` de nuestro proyecto en la raiz de el proyecto laravel
