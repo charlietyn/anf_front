@@ -1,5 +1,4 @@
 <template>
-  {{hide_elements}}
   <h1>Listado de usuarios</h1>
   <div class="flex">
     <div class="overflow-x-auto ">
