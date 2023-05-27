@@ -53,11 +53,11 @@
             </tr>
             <tr class="border-b dark:border-neutral-500">
               <td class="whitespace-nowrap px-6 py-4 font-medium">Mayor edad</td>
-              <td class="whitespace-nowrap px-6 py-4">{{ datos_inf.mayor.nombre }}{{ datos_inf.mayor.apellidos }}</td>
+              <td class="whitespace-nowrap px-6 py-4">{{ datos_inf.mayor.nombre }} {{ datos_inf.mayor.apellidos }}</td>
             </tr>
             <tr class="border-b dark:border-neutral-500">
               <td class="whitespace-nowrap px-6 py-4 font-medium">Menor edad</td>
-              <td class="whitespace-nowrap px-6 py-4">{{ datos_inf.menor.nombre }}{{ datos_inf.menor.apellidos }}</td>
+              <td class="whitespace-nowrap px-6 py-4">{{ datos_inf.menor.nombre }} {{ datos_inf.menor.apellidos }}</td>
             </tr>
             </tbody>
           </table>
